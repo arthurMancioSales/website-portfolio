@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Website</title>
+	<link rel="stylesheet" href="./src/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/c86d107cf7.js" crossorigin="anonymous"></script>
+	<script src="./src/main.js" type="module" defer></script>
+</head>
+
+<body>
+	<header id="header-nav" class="flex-row container primary-color space-between">
+		<i class="fa-solid fa-bars"></i>
+		<h2 class="title">Arthur</h2>
+		<i class="fa-solid fa-sun"></i>
+	</header>
+	<section class="container flex-column primary-color" id="hero">
+		<div class="flex-row" id="hero-banner">
+			<img src="./src/imgs/Vector.png" alt="">
+			<i class="fa-brands fa-github" id="github-hero"></i>
+			<i class="fa-brands fa-linkedin" id="linkedin-hero"></i>
+			<i class="fa-brands fa-instagram" id="instagram-hero"></i>
+		</div>
+		<div class="flex-column fl-start">
+			<h1 class="title">Hey, I'm Arthur</h1>
+			<h2 class="subtitle">Discover my academic Portfolio</h2>
+			<h3 class="subtitle">Application ID:</h3>
+		</div>
+	</section>
+	<section class="container flex-column primary-color" id="about-me">
+		<h2 class="section-title">About Me</h2>
+		<h3 class="subtitle">
+			Insistent, adventurous, and enthusiastic are different ways to describe the mess I am.
+		</h3>
+		<p class="text-long">
+			From a young age, I have always believed that it's in the moments of difficulty where we improve the most. This mantra has made me constantly look for new challenges. Doing the bare minimum or the same old thing was not my type. And even before graduating from the SESI 182 Educational Center in the city of São José dos Campos, São Paulo - Brazil, class of 2021, I found myself seeking the challenge of international graduation.
+		</p>
+		<p class="text-long">
+			It was then that I met the Van Veen Institute, a watershed from the very first moment. There I found support and advice. I found myself. I went through the most challenging moments of my life. And therefore, through the deepest phase of improvement.
+		</p>
+		<p class="text-long">
+			Through this portfolio, I would like to present a little of the path I have walked so far. Of the defeats and victories that made me who I am.
+		</p>
+		<div class="flex-row" id="hero-footer">
+			<img src="./src/imgs/logo van veen branca.svg" alt="Van Veen Institute logo" id="institute-svg">
+			
+			<img src="./src/imgs/About Me SVG.svg" alt="Icon representing Arthur" id="myself-svg">
+		</div>
+	</section>
+	<section class="container flex-column contrast-color" id="extras">
+		<img src="./src/imgs/about me curve.svg" alt="curve figure" id="curve-svg">
+		<h2 class="section-title">Extra Activities</h2>
+		<div id="extras-carousel" class="flex-row">
+			<div class="slide flex-column active">
+				<div class="flex-row">
+					<i class="fa-solid fa-arrow-left arrow" id="previous-arrow"></i>
+					<i class="fa-solid fa-desktop"></i>
+					<i class="fa-solid fa-arrow-right arrow" id="next-arrow"></i>
+				</div>
+				<h3 class="subtitle">Cyber Leader</h3>
+				<div class="carousel-text">
+					<p class="text">
+						I have always been the stereotype of the technology kid. It was common for teachers to ask me for help in finding platforms or tools to make the class more interesting. That was when the Cyber Leader project came up at my school. 
+					</p>
+					<p class="text">
+						As a Cyber Leader, my role was to look for ways to use technology to improve the school. I received training to use Office tools that go beyond the standard.
+					</p>
+					<p class="text">
+						I used Blender, a 3d modeling software, to make geometry lessons more interactive and hands-on. Also, using Sway to produce presentations and assignments became a routine. Keeping track of the progress of activities and lectures with Planner became easier. And finally, we created the first digital interclass in the SESI school system.
+					</p>
+				</div>
+				<div class="carousel-pictures">
+
+				</div>
+			</div>
+			<div class="slide flex-column">
+				<div class="flex-row">
+					<i class="fa-solid fa-arrow-left arrow" id="previous-arrow"></i>
+					<i class="fa-sharp fa-solid fa-cubes"></i>
+					<i class="fa-solid fa-arrow-right arrow" id="next-arrow"></i>
+				</div>
+				<h3 class="subtitle">Maker Leader</h3>
+				<div class="carousel-text">
+					<p class="text">
+						I entered the world of robotics very early, and because of that, the maker culture has always been something usual. But, when I discovered that my school would have a FAB-LAB, a Maker lab idealized by MIT, I realized that not everyone was in the same situation as me.
+					</p>
+					<p class="text">
+						To compensate for this gap, my school created the Maker Leader program, where outstanding Maker students would help this culture become more widespread in the school. And I had the privilege of being one of them.
+					</p>
+					<p class="text">
+						I could use everything from laser cutting machines to 3D printers. But what amazed me the most was following the students discovering themselves. I followed and tutored the widest range of projects possible. I used laser-cut acrylic to make nameplates for the local flora and modeled models to be 3D printed.
+					</p>
+				</div>
+				<div class="carousel-pictures">
+
+				</div>
+			</div>
+			<div class="slide flex-column">
+				<i class="fa-solid fa-robot"></i>
+				<h3 class="subtitle">Robotics</h3>
+			</div>
+			<div class="slide flex-column">
+				<i class="fa-solid fa-code"></i>
+				<h3 class="subtitle">Alura</h3>
+			</div>
+			<div class="slide flex-column">
+				<i class="fa-brands fa-python"></i>
+				<h3 class="subtitle">MITx</h3>
+			</div>
+			
+		</div>
+		<div id="carousel-content flex-column">
+			
+		</div>
+	</section>
+	<footer id="footer-container"></footer>
+</body>
+
+</html>
